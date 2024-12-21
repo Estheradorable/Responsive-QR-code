@@ -1,0 +1,78 @@
+/* QR Image */
+
+/* width: 288px;
+height: 288px;
+
+background: #2C7DFA;
+border-radius: 10px;
+
+/* Inside auto layout 
+flex: none;
+order: 0;
+flex-grow: 0; */
+
+body{
+    margin: 0;
+    background-color: rgba(213, 225, 239, 1);
+}
+
+.wrapper{
+    width: 1440px;
+    height: 960px;
+    background-color: rgba(213, 225, 239, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-box{
+    background-color: white;
+    width: 320px;
+    height: 499px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px gainsboro;
+}
+
+.qr-box img{
+    width: 100%;
+    height: 288px;
+}
+.text{
+    padding: 12px;
+    align-items: center;
+    margin: -10px;
+    
+}
+.heading{
+    color: rgba(31, 49, 79, 1);
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.body-text{
+    color: rgba(104, 119, 141, 1);
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .wrapper{
+        width: 375px;
+        height: 812px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
